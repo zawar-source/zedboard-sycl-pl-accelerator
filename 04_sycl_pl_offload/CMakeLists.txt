@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(zynq_sycl_pl_offload CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(sycl_pl_offload sycl_pl_offload.cpp)

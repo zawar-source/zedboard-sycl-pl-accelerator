@@ -1,0 +1,6 @@
+build/
+*.o
+*.elf
+*.vcd
+pl_sim
+screenshots/
